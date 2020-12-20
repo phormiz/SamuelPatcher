@@ -6,6 +6,13 @@ Ce crack bypass la blacklist id+ip et donne le premium gratuitement ainsi qu'un 
 Si vous voulez nous rencontrer (sltsv) vous pouvez rejoindre ce serveur :
 `https://lightcord.org/discord`
 
+# Et alors ? 
+Bah bonjour Samuel, t'aime skid le deroku ? J'ai donc rendu ton selfbot qui est d'ailleurs mal codé, gratuit :hap:
+
+Pas de bol. 
+
+Je sais pas combien d'argent tu t'es fais sur ça, mais tu ne mérites même pas un seul petit centime de roupies :clown:
+
 # Comment configurer le Selfbot ?
 
 1. Faites npm i, on est pas des merdes.
@@ -87,11 +94,3 @@ Et voila le résultat :)
 
 
 Et voila le putenox-project est à vous (enfin surtout à thomiz sachant que 90% du code vient du deroku) :)
-
-
-# Et alors ? 
-Bah bonjour Samuel, t'aime skid le deroku ? J'ai donc rendu ton selfbot qui est d'ailleurs mal codé, gratuit :hap:
-
-Pas de bol. 
-
-Je sais pas combien d'argent tu t'es fais sur ça, mais tu ne mérites même pas un seul petit centime de roupies :clown:
