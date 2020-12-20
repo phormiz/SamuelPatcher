@@ -1,5 +1,2 @@
-var p = require("punchnox-project-selfbot")
-var setting = require("./config.js");
-var sltcv = __dirname;
-
-p.start(setting, sltcv);
+require("punchnox-project-selfbot")
+    .start(require("./config.js"), __dirname);

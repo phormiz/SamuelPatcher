@@ -1,0 +1,22 @@
+{
+  "name": "punchnox",
+  "version": "1.0.0",
+  "description": "Punchnox cracked, pas de chance.",
+  "main": "crack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotPunchnox/punchnox-project-selfbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NotPunchnox/punchnox-project-selfbot/issues"
+  },
+  "homepage": "https://github.com/NotPunchnox/punchnox-project-selfbot#readme",
+  "dependencies": {
+    "punchnox-project-selfbot": "^2.0.3"
+  }
+}

@@ -1,125 +1,97 @@
 
-#
-Bienvenue sur le punchnox-project
-Merci de votre confiance
+# Bienvenue sur Samuel Patcher™️
+On vous a patché le putenox project gratuitement, quel chance !
+Ce crack bypass la blacklist id+ip et donne le premium gratuitement ainsi qu'un statut de team, c'te chance !
 
-Si vous voulez acheter le premium vous pouvez vous rendre sur ce serveur :
-`https://discord.gg/punchnox`
+Si vous voulez acheter nous rencontrer (sltsv) vous pouvez vous rendre sur ce serveur :
+`https://lightcord.org/discord`
 
-comment configurer le selfbot ?
+# Comment configurer le Selfbot ?
 
--Les modules sonts dans l'archive "node_modules.rar" il vous faut juste l'extraire dans le dossier punchnox-project.
+1. Faites npm i, on est pas des merdes.
 
-
-
-1- Récuperez votre token :
+2. Récuperez votre token :
 https://www.youtube.com/watch?v=fv-H68OwsIA
 Vous pouvez regarder cette vidéo qui explique comment le récuperer
 
 
--2 Ensuite mettez votre token dans le config.json,
-```json
+3. Ensuite mettez votre token dans le config.json,
+```js
 ///exemple
 ///laissez bien les guillemets comme dans l'exemple :
-"token":  "NzI5NjQ5NjE3OTQzMzk2Mzcy.XwMBjw.nTbuP7qa3zAdNUtVcpASy1nfoqE",
+const token = "NzI5NjQ5NjE3OTQzMzk2Mzcy.XwMBjw.nTbuP7qa3zAdNUtVcpASy1nfoqE"
 ```
 
 
--3 Faites de même pour le prefix, l'image des embeds, la couleur, votre lien twitch, le nsfw, le nitro auto claimer et le multi stream.
+4. Faites de même pour le préfixe, l'image des embeds, la couleur, votre lien twitch, le nsfw, le nitro auto claimer et le multistream.
 
-```json
-{
-    "token": "votre token",
-    "prefix":  "votre prefix ( . / * ect )",
-    "image":  "le lien de l'image des embeds",
-    "color":  "name de la couleur comme: black random ... ou des couleurs html comme: #00FFDC",
-    "twitch":  "votre lien twitch",
-    "nsfw": "on ou off",
-    "nitro_claimer": "on ou off",
-    "multi_status": ["Votre multi stream 1 ",  "Votre multi stream 2 ",  "Votre multi stream 3 "]
-    }
+```js
+const token ="votre token"
+const prefix = "votre prefix ( . / * ect )"
+const image = "le lien de l'image des embeds"
+const color = "name de la couleur comme =black random ... ou des couleurs html comme =#00FFDC"
+const twitch = "votre lien twitch"
+const sfw = "on ou off"
+const nitro_claimer = "on ou off"
+const multi_status = ["Votre multi stream 1 ",  "Votre multi stream 2 ",  "Votre multi stream 3 "]
 ```
 
+# Riches préèsesences by samuel™️
 
--4 Si vous ne comprenez pas je vous ai fais un exemple de quoi ça doit ressembler.
-
-```json
-{
-
-    "token":  "NzI5NjQ5NjE3OTQzMzk2Mzcy.XwMBjw.nTbuP7qa3zAdNUtVcpASy1nfoqE",
-    "prefix":  "/",
-    "image":  "https://cdn.discordapp.com/attachments/718445465988890634/719457406911774820/community_image_1430247464.gif",
-    "color":  "RANDOM",
-    "twitch":  "https://twitch.tv/punchnox",
-    "nsfw": "on",
-    "nitro_claimer": "on",
-    "multi_status": ["punchnox-project",  "V1.0.0",  "by punchnox"]
-           
-}
-```
-
-Ensuite je vous ai faits une Riche présence custom que vous pourrez paramètrer dans le config.json
+Une Rich Presence™️ est intégrée avec [le module de Thomiz™️](https://npmjs.com/discordrpcgenerator) que vous pouvez configurer dans le config.js.
 
 ![ScreenShot](https://media.discordapp.net/attachments/726415763526647841/730716565049311322/unknown.png)
 
-ceci est un exemple de riche présence custom pour la paramétrer rendez-vous  sur discord developers :
+Ceci est un exemple de rich presence. Pour en faire une customisée, rendez-vous sur le portal de [Discord Developer](https://discord.com/developers/applications)
 
-https://discord.com/developers/applications/
+1. Créez une nouvelle application.
 
-
-
-
--Créez une nouvelle application comme dans le screenshot
-
-![ScreenShot](https://cdn.discordapp.com/attachments/726415763526647841/730718138953367582/tempsnip.png)
+![Screenshot](https://cdn.discordapp.com/attachments/726415763526647841/730718138953367582/tempsnip.png)
 
 
--Cliquez sur "create" après avoir donné un nom à vôtre application
+2. Cliquez sur "Create" après avoir donné un nom à votre application.
 
-![ScreenShot](https://cdn.discordapp.com/attachments/726415763526647841/730718437587943494/tempsnip.png)
+![Screenshot](https://cdn.discordapp.com/attachments/726415763526647841/730718437587943494/tempsnip.png)
 
 
--Copiez le "CLIENT ID" (cliquez sur copier) comme sur le screenshot
+3. Copiez le "CLIENT ID" (cliquez sur copier).
 
--Ensuite ouvrez le fichier config.json et mettez le client id que vous avez copié.
-ça devrait ressembler à ça :
-```json
-
-"application_id": "730718483599458365",
+4. Ensuite ouvrez le fichier config.js et mettez le client id que vous avez copié.
+Exemple:
+```js
+const application_id = "730718483599458365"
 ```
 (à la place de 730718483599458365 vous collez l'id de vôtre application.)
 
-![ScreenShot](https://cdn.discordapp.com/attachments/726415763526647841/730718938580779088/tempsnip.png)
+![Screenshot](https://cdn.discordapp.com/attachments/726415763526647841/730718938580779088/tempsnip.png)
 
 
 
 
--Retournez sur discord devlopers puis allez sur "Rich Presence" et "Art Assets"
--Cliquez sur "Add Image(s)"
--Puis ajoutez une image
+1. Retournez sur le developer portal puis allez sur "Rich Presence" et "Art Assets"
+2. Cliquez sur "Add Image(s)"
+3. Puis ajoutez une image
 
-![ScreenShot](https://cdn.discordapp.com/attachments/726415763526647841/730720335887859722/Sans_titre.png)
+![Screenshot](https://cdn.discordapp.com/attachments/726415763526647841/730720335887859722/Sans_titre.png)
+![Screenshot](https://cdn.discordapp.com/attachments/726415763526647841/730720955466252378/tempsnip.png)
+![Screenshot](https://cdn.discordapp.com/attachments/726415763526647841/730726405138284584/tempsnip.png)
 
+-Et pour finir vous mettez vos paramètres dans le config.js
 
--Donnez un nom à vôtre image
-
-![ScreenShot](https://cdn.discordapp.com/attachments/726415763526647841/730720955466252378/tempsnip.png)
-
-
--Il vous reste à cliquer sur "Visualizer"
--Et vous paramétrez vôtre Rich Presence
-
-![ScreenShot](https://cdn.discordapp.com/attachments/726415763526647841/730726405138284584/tempsnip.png)
-
-
--Et pour finir vous mettez vos paramètres dans le config.json (pas besoin de faire "SMALL IMAGE KEY" et "START TIMESTAMP") comme sur le screenshot
-
-![ScreenShot](https://cdn.discordapp.com/attachments/726415763526647841/730726385118740520/Capture.PNG)
+![Screenshot](https://cdn.discordapp.com/attachments/726415763526647841/730726385118740520/Capture.PNG)
 
 Et voila le résultat :)
 
-![ScreenShot](https://cdn.discordapp.com/attachments/726415763526647841/730726975865356338/Capture.PNG)
+![Screenshot](https://cdn.discordapp.com/attachments/726415763526647841/730726975865356338/Capture.PNG)
 
 
 
-Et voila le puchnox-project est à vous :)
+Et voila le putenox-project est à vous (enfin surtout à thomiz sachant que 90% du code vient du deroku) :)
+
+
+# Et alors ? 
+Bah bonjour Samuel, t'aime skid le deroku ? J'ai donc rendu ton selfbot qui est d'ailleurs mal codé, gratuit :hap:
+
+Pas de bol. 
+
+Je sais pas combien d'argent tu t'es fais sur ça, mais tu ne mérites même pas un seul petit centime de roupies :clown:
