@@ -3,7 +3,7 @@
 On vous a patché le putenox project gratuitement, quel chance !
 Ce crack bypass la blacklist id+ip et donne le premium gratuitement ainsi qu'un statut de team, c'te chance !
 
-Si vous voulez acheter nous rencontrer (sltsv) vous pouvez vous rendre sur ce serveur :
+Si vous voulez nous rencontrer (sltsv) vous pouvez rejoindre ce serveur :
 `https://lightcord.org/discord`
 
 # Comment configurer le Selfbot ?
@@ -23,7 +23,7 @@ const token = "NzI5NjQ5NjE3OTQzMzk2Mzcy.XwMBjw.nTbuP7qa3zAdNUtVcpASy1nfoqE"
 ```
 
 
-4. Faites de même pour le préfixe, l'image des embeds, la couleur, votre lien twitch, le nsfw, le nitro auto claimer et le multistream.
+4. Faites de même pour le préfix, l'image des embeds, la couleur, votre lien twitch, le nsfw, le nitro auto claimer et le multistream.
 
 ```js
 const token ="votre token"
