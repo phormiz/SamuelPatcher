@@ -1,4 +1,3 @@
-
 # Bienvenue sur Samuel Patcher™️
 On vous a patché le putenox project gratuitement, quel chance !
 Ce crack bypass la blacklist id+ip et donne le premium gratuitement ainsi qu'un statut de team, c'te chance !
@@ -15,14 +14,14 @@ Je sais pas combien d'argent tu t'es fais sur ça, mais tu ne mérites même pas
 
 # Comment configurer le Selfbot ?
 
-1. Faites npm i, on est pas des merdes.
+1. Faites ``npm i``, on est pas des merdes.
 
 2. Récuperez votre token :
 https://www.youtube.com/watch?v=fv-H68OwsIA
 Vous pouvez regarder cette vidéo qui explique comment le récuperer
 
 
-3. Ensuite mettez votre token dans le config.json,
+3. Ensuite mettez votre token dans le config.js,
 ```js
 ///exemple
 ///laissez bien les guillemets comme dans l'exemple :
@@ -42,6 +41,8 @@ const sfw = "on ou off"
 const nitro_claimer = "on ou off"
 const multi_status = ["Votre multi stream 1 ",  "Votre multi stream 2 ",  "Votre multi stream 3 "]
 ```
+
+5. Faites ``node crack`` afin de lancer le selfbot
 
 # Riches préèsesences by samuel™️
 
